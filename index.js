@@ -3,8 +3,7 @@ const path = require('path')
 const copyFolder = require('ncp')
 const remove = require('rimraf')
 const frontmatter = require('front-matter')
-const markdown  = require('showdown')
-const converter = new markdown.Converter()
+const markdown  = require('marked')
 
 function moveMediaFolder() {
   let mediaPath = path.resolve('./media')
@@ -52,19 +51,6 @@ function getAllPosts() {
   })
 }
 
-function getAllBooks() {
-  let postFolder = path.resolve('./content/books')
-  let files = fs.readdirSync(postFolder)
-  files = files.filter(function(file) {
-    return file.indexOf('.md') !== -1
-  })
-  return files.map(function(fileName) {
-    let data = parseMarkdown(`./content/books/${fileName}`)
-    data.fileName = fileName
-    return data
-  })
-}
-
 function createPage(contentPath, pagePath) {
   let resolvedContentPath = path.resolve(contentPath)
   let resolvedPagePath = path.resolve('./build', pagePath)
@@ -93,14 +79,17 @@ function parseMarkdown(filePath) {
   let data = frontmatter(file)
   let outPath = filePath.split('/')
   outPath = outPath[outPath.length-1]
-  outPath = outPath.split('.')[0]
+  outPath = outPath.split('.')[0] // Code above can be reused
   return {
     path: outPath,
     title: data.attributes.title,
     description: data.attributes.description,
+    author: data.attributes.author,
+    date: data.attributes.date,
     thumbnail: data.attributes.thumbnail,
     type: data.attributes.type,
-    html: converter.makeHtml(data.body)
+    tags: data.attributes.tags,
+    html: markdown(data.body)
   }
 }
 
@@ -109,7 +98,7 @@ function renderHead(data) {
     <head>
       <title>${data.title}</title>
       <link rel="stylesheet" href="/layout.css">
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <script type="text/javascript" src="/script.js"></script>
     </head>
   `
 }
@@ -118,9 +107,10 @@ function renderMenu() {
   return `
     <ul>
       <li><a href="/">Home</a></li>
+      <li><a href="/notes">Public Notes</a></li>
       <li><a href="/projects">Projects</a></li>
-      <li><a href="/garden">Digital Garden</a></li>
       <li><a href="/bookshelf">Bookshelf</a></li>
+      <li><a href="/about">About</a></li>
     </ul>
   `
 }
@@ -138,26 +128,58 @@ function renderPageLayout(data) {
 }
 
 function renderIndexLayout(pageData, posts) {
+  let tags = []
+  for (let i = 0; i < posts.length; i++) {
+    let post = posts[i]
+    if (post.tags != undefined) {
+      for (let j = 0; j < post.tags.length; j++) {
+        let tag = post.tags[j]
+        if (tags.indexOf(tag) == -1) {
+          tags.push(tag)
+        }
+      }
+    }
+  }
+
   function renderThumbnails(posts) {
     return `
       <div class="list">
         ${posts.map(function(post) {
+          let tags = ''
+          if (post.tags != undefined) {
+            tags = post.tags.map(function(t) {
+              return `tag-${t}`
+            }).join(' ')
+          }
           return `
-            <div class="thumbnail">
-              <h3><a href="/${post.path}">${post.title}</a></h3>
-              <p><img src="${post.thumbnail}" alt="${post.title}" /></p>
+            <div class="thumbnail ${tags}">
+              <p><a href="/${post.path}"><img src="${post.thumbnail}" alt="${post.title} cover image" /></a></p>
+              <h4><a href="/${post.path}">${post.title}</a></h4>
+              <p>${post.author}</p>
             </div>
           `
         }).join('')}
       </div>
+      
     `
   }
+  function renderTagButtons(tags) {
+    return `
+      ${tags.map(function(tag) {
+        return `
+          <button class="tag-button" data-tag="${tag}">${tag}</button>
+        `
+      }).join('')}
+    `
+  }
+
   return `
     <html>
       ${renderHead(pageData)}
       <body>
         ${renderMenu()}
         ${pageData.html}
+        ${renderTagButtons(tags)}
         ${renderThumbnails(posts)}
       </body>
     </html>
@@ -170,17 +192,11 @@ cleanBuildFolder()
 .then(function() {
   // Create single pages
   createPage('./content/pages/home.md', '')
-  // Get all file names inside
+  createPage('./content/pages/about.md', './about') 
+  
   let allPosts = getAllPosts()
   allPosts.forEach(function(data) {
-    // generate a folder name from file name
     createPage(`./content/posts/${data.fileName}`, `${data.path}`)
-  })
-
-  let allBooks = getAllBooks()
-  allBooks.forEach(function(data) {
-    // generate a folder name from file name
-    createPage(`./content/books/${data.fileName}`, `${data.path}`)
   })
 
   // Create an index page for projects
@@ -189,11 +205,11 @@ cleanBuildFolder()
   })
   createIndex('./content/pages/projects.md','projects', projectPosts)
 
-  // Create an index page for garden notes
-  let blogPosts = allPosts.filter(function(post) {
-    return post.type === 'blog'
+  // Create an index page for public notes
+  let notePosts = allPosts.filter(function(post) {
+    return post.type === 'note'
   })
-  createIndex('./content/pages/garden.md','garden', blogPosts)
+  createIndex('./content/pages/notes.md','notes', notePosts)
 
   // Create an index page for books
   let bookPosts = allPosts.filter(function(post) {

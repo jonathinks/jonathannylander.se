@@ -2,7 +2,10 @@
 title: First blog post!!
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 thumbnail: /media/image.png
-type: blog
+type: note
+tags:
+- Education
+- Technology
 ---
 
 # This is my first blog post
