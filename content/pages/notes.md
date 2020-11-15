@@ -1,9 +1,12 @@
 ---
 title: Notes
-description: yolo
+description: 
 type: page
 ---
 
 # Public Notes
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<section>
+<p>
+A space where I share notes about what I am learning, thinking and working on. These can be sketches, ideas or resources that I find useful, and hope others can find helpful in their learning journeys. The notes are never finished, but rather continously updated as I learn and grow myself.
+</p>
+</section>

@@ -27,6 +27,17 @@ function moveSourceFolder() {
   })
 }
 
+function moveFontFolder() {
+  let mediaPath = path.resolve('./et-book')
+  let buildPath = path.resolve('./build/et-book')
+  return new Promise(function(resolve, reject) {
+    copyFolder(mediaPath, buildPath, function(err) {
+      if (err) return reject(err)
+      resolve()
+    })
+  })
+}
+
 function cleanBuildFolder() {
   let buildPath = path.resolve('./build')
   return new Promise(function(resolve, reject) {
@@ -189,6 +200,7 @@ function renderIndexLayout(pageData, posts) {
 cleanBuildFolder()
 .then(moveMediaFolder)
 .then(moveSourceFolder)
+.then(moveFontFolder)
 .then(function() {
   // Create single pages
   createPage('./content/pages/home.md', '')
