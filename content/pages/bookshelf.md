@@ -1,5 +1,5 @@
 ---
-title: Bookshelf
+title: Jonathan Nylander - Bookshelf
 description: The books that I am reading or have finished
 type: page
 ---

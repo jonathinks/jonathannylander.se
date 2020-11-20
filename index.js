@@ -73,12 +73,12 @@ function createPage(contentPath, pagePath) {
   fs.writeFileSync(`${resolvedPagePath}/index.html`, html)
 }
 
-function createIndex(contentPath, pagePath, posts) {
+function createIndex(contentPath, pagePath, posts, thumbnailSize) {
   let resolvedContentPath = path.resolve(contentPath)
   let resolvedPagePath = path.resolve('./build', pagePath)
 
   let pageData = parseMarkdown(resolvedContentPath)
-  let html = renderIndexLayout(pageData, posts)
+  let html = renderIndexLayout(pageData, posts, thumbnailSize)
 
   fs.mkdirSync(resolvedPagePath, { recursive: true })
   fs.writeFileSync(`${resolvedPagePath}/index.html`, html)
@@ -116,13 +116,15 @@ function renderHead(data) {
 
 function renderMenu() {
   return `
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/notes">Public Notes</a></li>
-      <li><a href="/projects">Projects</a></li>
-      <li><a href="/bookshelf">Bookshelf</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
+    <div class="menu">
+      <p>
+        <a href="/">Home</a>
+        <a href="/notes">Notes</a>
+        <a href="/projects">Projects</a>
+        <a href="/bookshelf">Bookshelf</a>
+        <a href="/about">About</a>
+      </p>
+    </div>
   `
 }
 
@@ -138,7 +140,45 @@ function renderPageLayout(data) {
   `
 }
 
-function renderIndexLayout(pageData, posts) {
+function renderThumbnails(posts, size) { // size can be "small, medium and large"
+  return `
+    <div class="list">
+      ${posts.map(function(post) {
+        let tags = ''
+        if (post.tags != undefined) {
+          tags = post.tags.map(function(t) {
+            return `tag-${t}`
+          }).join(' ')
+        }
+        if(size == "small")
+        {
+          return `
+          <div class="smallThumbnail ${tags}">
+            <p><a href="/${post.path}"><img src="${post.thumbnail}" alt="${post.title} cover image" /></a></p>
+            <h4><a href="/${post.path}">${post.title}</a></h4>
+            <p>${post.author}</p>
+          </div>`
+        }
+        else if(size == "large")
+        {
+          return `
+          <section>
+            <div class="largeThumbnail ${tags}">
+              <a href="/${post.path}"><img src="${post.thumbnail}" alt="${post.title} cover image" /></a>
+              <h4><a href="/${post.path}">${post.title}</a></h4>
+              <p>${post.description}</p>
+            </div>
+          </section>`
+
+        }
+        
+      }).join('')}
+    </div>
+    
+  `
+}
+
+function renderIndexLayout(pageData, posts, thumbnailSize) {
   let tags = []
   for (let i = 0; i < posts.length; i++) {
     let post = posts[i]
@@ -152,28 +192,7 @@ function renderIndexLayout(pageData, posts) {
     }
   }
 
-  function renderThumbnails(posts) {
-    return `
-      <div class="list">
-        ${posts.map(function(post) {
-          let tags = ''
-          if (post.tags != undefined) {
-            tags = post.tags.map(function(t) {
-              return `tag-${t}`
-            }).join(' ')
-          }
-          return `
-            <div class="thumbnail ${tags}">
-              <p><a href="/${post.path}"><img src="${post.thumbnail}" alt="${post.title} cover image" /></a></p>
-              <h4><a href="/${post.path}">${post.title}</a></h4>
-              <p>${post.author}</p>
-            </div>
-          `
-        }).join('')}
-      </div>
-      
-    `
-  }
+  
   function renderTagButtons(tags) {
     return `
       ${tags.map(function(tag) {
@@ -191,7 +210,7 @@ function renderIndexLayout(pageData, posts) {
         ${renderMenu()}
         ${pageData.html}
         ${renderTagButtons(tags)}
-        ${renderThumbnails(posts)}
+        ${renderThumbnails(posts, thumbnailSize)}
       </body>
     </html>
   `
@@ -215,19 +234,19 @@ cleanBuildFolder()
   let projectPosts = allPosts.filter(function(post) {
     return post.type === 'project'
   })
-  createIndex('./content/pages/projects.md','projects', projectPosts)
+  createIndex('./content/pages/projects.md','projects', projectPosts, "large")
 
   // Create an index page for public notes
   let notePosts = allPosts.filter(function(post) {
     return post.type === 'note'
   })
-  createIndex('./content/pages/notes.md','notes', notePosts)
+  createIndex('./content/pages/notes.md','notes', notePosts, "small")
 
   // Create an index page for books
   let bookPosts = allPosts.filter(function(post) {
     return post.type === 'book'
   })
-  createIndex('./content/pages/bookshelf.md','bookshelf', bookPosts)
+  createIndex('./content/pages/bookshelf.md','bookshelf', bookPosts, "small")
 
 })
 .catch(function(error) {

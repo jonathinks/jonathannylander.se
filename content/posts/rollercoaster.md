@@ -8,9 +8,18 @@ tags:
 - Education
 ---
 
-# The Incredible Super Build (Rollercoaster Project)
+# The Incredible Super Build Project
+
+<section>
+    <figure class="fullwidth">
+        <div class="iframe-wrapper">
+            <iframe width="720" height="480" src="https://www.youtube.com/embed/qe4PMq4SRxg?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </figure>
+</section>
 
 ## How it all got started
+<section>
 
 In late 2017, two friends and I were looking into starting a new venture: a makerspace high school in Beijing. In order the prototype the concept and better understand the market,
 we organized an after-school activity for the International School of Beijing (ISB for short, 北京顺义国际学校 in Chinese).
@@ -30,7 +39,7 @@ The spirit was high and our team of Super Builders grew. Middle schoolers worked
 
 ![](/media/rollercoaster4.jpg)
 
-Things went so well, it was too good to be true. So one day, we got news from the insurance company serving the school saying that no person was to be allowed to ride the roller coaster. Another restriction was to have no people standing on a structure taller than 2 meters. The Super Build Team was quite (very) disappointed, but after a long discussion concluded that they were going to finish the roller coaster despite the restrictions. They wanted to prove to the school and insurance company that they could build a safe roller coaster with proper calculations and safety features. And just put a big teddy bear in the seat instead. We went back to the drawing board to work with the new restrictions. The students took the lead on making new G-force calculations and CAD designs.
+Things went so well, it was too good to be true. So one day, we got news from the insurance company serving the school saying that no person was to be allowed to ride the roller coaster. Another restriction was to have no people standing on a structure taller than 2 meters. The Super Build Team was quite (very) disappointed, and discussed alternative plans like building a wooden house. But after a long discussion they concluded that they were going to finish the roller coaster despite the restrictions. They wanted to prove to the school and insurance company that they could build a safe roller coaster with proper calculations and safety features. And just put a big teddy bear in the seat instead of a person. We went back to the drawing board to work with the new restrictions. The students took the lead on making new G-force calculations and CAD designs.
 
 ![](/media/rollercoaster5.jpg)
 
@@ -38,10 +47,12 @@ What really began to both fascinate and impress me was the dedication and motiva
 
 ![](/media/rollercoaster6.jpg)
 
-Both Jaguar and I practice a very hands-off facilitation style, where we try to intervene only when necessary and let the students make (not too critical) mistakes. We ask lots of questions instead of pointing out flaws in their designs and ideas, making them realize and correct mistakes themselves. We often point out things that needs to be done, and give students a chance to responsibility and ownership of those tasks.
+Both Jaguar and I practice a very hands-off facilitation style, where we try to intervene only when necessary and let the students make (not too critical) mistakes. We ask lots of questions instead of pointing out flaws in their designs and ideas, making them realize and correct mistakes themselves. We often point out things that needs to be done, and give students a chance to take responsibility and have ownership of those tasks.
 
 ![](/media/rollercoaster7.jpg)
 
 After putting in a lot of work the last week, our team managed to complete the whole project for the Innovation Expo. During the Innovation Expo, a lot of parents and other students came to see the roller coaster and it definitely fulfilled its purpose of inspiring. However, none ended up puking, not even the teddy bear.
 
 The way I see it, this project point out how we often set the bar too low in the education space. It also show how powerful it is to harness students intrinsic motivation to learn new things.
+
+</section>

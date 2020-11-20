@@ -1,10 +1,49 @@
 ---
-title: Home page title
-description: Nothing to see here
+title: Jonathan Nylander
+description: 
 type: page
 ---
 
 # Jonathan Nylander
-Exploring climate, education and technology through the lens of systems thinking and design.
 
-Systems Thinking Educator and in-house Climate Justice Activist at <a href="https://en.moonshotacademy.cn" target="_blank" rel="noopener noreferrer">moonshotacademy.cn</a>
+<section>
+
+<h2 style="font-style: normal; margin-top: 1.0rem;">Exploring climate, education and technology through the lens of systems thinking and design.</h2>
+
+<i>Systems Thinking Educator and in-house Climate Justice Activist at <a href="https://en.moonshotacademy.cn" target="_blank" rel="noopener noreferrer">moonshotacademy.cn</a>.</i>
+
+<p>
+To-Do Content
+<ul>
+    <li><b>Upgrade thoughts in the Dev Psychology post, especially perspective on China, also include Listening Society development theory (with link)</b></li>
+    <li><b>Clean through the books to not make it overwhelming, only include those books that had a bigger impact.Go through all remaining books to clean up descriptions and meta-data</b></li>
+    <li><b>Add in all projects from old website</b></li>
+    <li>The Past and Future of Nordic Politics</li>
+    <li>Frameworks of Future Institutional Design</li>
+    <li><b>My direction</b></li>
+    <li>Personal data for self-understanding</li>
+</ul>
+</p>
+
+<p>
+Looks/CSS
+<ul>
+    <li><b>CSS on About Page</b></li>
+    <li><b>Buttons styling!</b></li>
+    <li><b>Different size/style of posts depending on page (smaller, larger), including the text needed</b></li>
+    <li>Create a "book" module for posts AND inside book post automatically</li>
+</ul>
+</p>
+
+<p>
+Functions
+<ul>
+    <li>Fix bug when unclicking buttons</li>
+    <li><b>Create first page showing latest notes, projects and books</b></li>
+    <li><b>Order of all posts based on "date"</b></li>
+    <li><b>Deploy site to AMS</b></li>
+    <li><b>Redirect domain name</b></li>
+</ul>
+</p>
+
+</section>

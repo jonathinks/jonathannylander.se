@@ -52,7 +52,7 @@ body {
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     background-color: #fffff8;
     color: #111;
-    max-width: 1200px;
+    max-width: 900px;
     counter-reset: sidenote-counter;
 }
 
@@ -475,6 +475,7 @@ label.margin-toggle:not(.sidenote-number) {
   width: 50%;
 }
 
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -489,6 +490,14 @@ label.margin-toggle:not(.sidenote-number) {
   }
 } */
 
+
+/* MYSELF */
+
+.menu {
+    text-align: right;
+    word-spacing: 1rem;
+}
+
 /* FROM MURILO */
 
 .list {
@@ -496,9 +505,16 @@ label.margin-toggle:not(.sidenote-number) {
   flex-wrap: wrap;
 }
 
-.thumbnail {
-  padding: 1em;
+.smallThumbnail {
+  margin-right: 1.5em;
+  margin-bottom: 1em;
   width: 200px;
+}
+
+.largeThumbnail {
+  margin-right: 2em;
+  margin-bottom: 1em;
+  width: 420px;
 }
 
 .selected {
