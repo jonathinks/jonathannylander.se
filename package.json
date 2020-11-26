@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server -c-1 build",
-    "build": "node index.js"
+    "build": "node index.js",
+    "dev": "http-server -c-1 build && node index.js",
+    "publish": "aws s3 sync build s3://www.jonathannylander.se --exclude '.*' --acl public-read"
   },
   "author": "",
   "license": "ISC",

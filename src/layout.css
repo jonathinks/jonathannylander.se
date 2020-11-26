@@ -52,7 +52,7 @@ body {
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     background-color: #fffff8;
     color: #111;
-    max-width: 900px;
+    max-width: 1200px;
     counter-reset: sidenote-counter;
 }
 
@@ -496,35 +496,85 @@ label.margin-toggle:not(.sidenote-number) {
 .menu {
     text-align: right;
     word-spacing: 1rem;
+    margin-right: 1rem;
 }
 
-/* FROM MURILO */
+/* BUTTONS! */
+button {
+    font-family: inherit; /* For all browsers */
+    font-size: 100%; /* For all browsers */
+    line-height: 1.15; /* For all browsers */
+    margin: 0; /* Firefox and Safari have margin */
+    overflow: visible; /* Edge hides overflow */
+    text-transform: none; /* Firefox inherits text-transform */
+    -webkit-appearance: button; /* Safari otherwise prevents some styles */
+  }
+  
+  button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  button:-moz-focusring {
+    outline: 1px dotted;
+  }
 
-.list {
-  display: flex;
-  flex-wrap: wrap;
-}
+  .tag-button {
+    border: 1px solid #666;
+    border-radius: 0.25rem;
+    /*outline: 1px solid #111;*/
+    background: #fffff8;
+    color: #666;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    cursor: pointer;
+  }
 
-.smallThumbnail {
-  margin-right: 1.5em;
-  margin-bottom: 1em;
-  width: 200px;
-}
-
-.largeThumbnail {
-  margin-right: 2em;
-  margin-bottom: 1em;
-  width: 420px;
+button:hover { 
+    border: 1px solid #222;
+    color: #222;
 }
 
 .selected {
-  background: black;
-  color: white;
+    background: #222;
+    color: white;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+
+/* FROM MURILO */
+
+/*.list {
+  display: flex;
+  flex-wrap: wrap;
+}*/
+
+.smallThumbnail {
+  margin-right: 3em;
+  margin-bottom: 1em;
+  width: 250px;
 }
 
-.hidden {
-  display: none;
+.mediumThumbnail {
+    margin-right: 3em;
+    margin-bottom: 1em;
+    width: 350px;
 }
+
+.largeThumbnail {
+  margin-right: 3em;
+  margin-bottom: 1em;
+  width: 540px;
+}
+
 
 
 /** {

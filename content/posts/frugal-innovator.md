@@ -6,7 +6,6 @@ description:
 thumbnail: /media/frugal-innovator.jpg
 type: book
 tags:
-- Social Innovation
 
 ---
 

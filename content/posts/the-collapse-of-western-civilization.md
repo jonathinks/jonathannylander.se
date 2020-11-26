@@ -6,8 +6,9 @@ description:
 thumbnail: /media/collapse-of-western.jpg
 type: book
 tags:
-- Cli-Fi
-- Speculative Design
+- Climate
+- Design
+- Fiction
 
 ---
 

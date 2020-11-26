@@ -6,7 +6,7 @@ description:
 thumbnail: /media/this-changes-everything.jpg
 type: book
 tags:
-- "Climate Change"
+- Climate
 - Politics
 
 ---

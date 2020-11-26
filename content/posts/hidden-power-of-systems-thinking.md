@@ -7,7 +7,7 @@ thumbnail: /media/hidden-power.jpg
 type: book
 tags:
 - Systems
-- Governance
+- Politics
 - Climate
 ---
 

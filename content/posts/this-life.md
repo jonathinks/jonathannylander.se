@@ -8,7 +8,7 @@ type: book
 tags:
 - Politics
 - Philosophy
-- Marxism
+- Economics
 ---
 
 # This Life: Secular Faith and Spiritual Freedom

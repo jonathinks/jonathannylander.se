@@ -153,23 +153,41 @@ function renderThumbnails(posts, size) { // size can be "small, medium and large
         if(size == "small")
         {
           return `
-          <div class="smallThumbnail ${tags}">
-            <p><a href="/${post.path}"><img src="${post.thumbnail}" alt="${post.title} cover image" /></a></p>
-            <h4><a href="/${post.path}">${post.title}</a></h4>
-            <p>${post.author}</p>
-          </div>`
+          <section>
+            <div class="thumbnail ${tags}">
+              <div class="smallThumbnail">
+                <p><a href="/${post.path}"><img src="${post.thumbnail}" alt="${post.title} cover image" /></a></p>
+                <h3><a href="/${post.path}">${post.title}</a></h3>
+                <p>${post.author}</p>
+              </div>
+            </div>
+          </section>`
+        }
+        else if(size == "medium")
+        {
+          return `
+          <section>
+            <div class="thumbnail ${tags}">
+              <div class="mediumThumbnail">
+                <a href="/${post.path}"><img src="${post.thumbnail}" alt="${post.title} cover image" /></a>
+                <p><a href="/${post.path}">${post.title}</a></p>
+                <p>Last tended on ${post.date}.</p>
+              </div>
+            </div>
+          </section>`
         }
         else if(size == "large")
         {
           return `
           <section>
-            <div class="largeThumbnail ${tags}">
-              <a href="/${post.path}"><img src="${post.thumbnail}" alt="${post.title} cover image" /></a>
-              <h4><a href="/${post.path}">${post.title}</a></h4>
-              <p>${post.description}</p>
+            <div class="thumbnail ${tags}">
+              <div class="largeThumbnail">
+                <a href="/${post.path}"><img src="${post.thumbnail}" alt="${post.title} cover image" /></a>
+                <h3><a href="/${post.path}">${post.title}</a></h3>
+                <p>${post.description}</p>
+              </div>
             </div>
           </section>`
-
         }
         
       }).join('')}
@@ -195,11 +213,13 @@ function renderIndexLayout(pageData, posts, thumbnailSize) {
   
   function renderTagButtons(tags) {
     return `
+      <div style="max-width: 75%">
       ${tags.map(function(tag) {
         return `
           <button class="tag-button" data-tag="${tag}">${tag}</button>
         `
       }).join('')}
+      </div>
     `
   }
 
@@ -240,7 +260,7 @@ cleanBuildFolder()
   let notePosts = allPosts.filter(function(post) {
     return post.type === 'note'
   })
-  createIndex('./content/pages/notes.md','notes', notePosts, "small")
+  createIndex('./content/pages/notes.md','notes', notePosts, "medium")
 
   // Create an index page for books
   let bookPosts = allPosts.filter(function(post) {

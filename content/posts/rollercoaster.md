@@ -6,6 +6,7 @@ thumbnail: /media/rollercoaster.JPG
 type: project
 tags:
 - Education
+- Engineering
 ---
 
 # The Incredible Super Build Project
@@ -29,7 +30,9 @@ The group of students that signed up for the project made it clear that they wan
 As we debated what kind of project to build, ideas like mini-tanks or wooden structures with the sole purpose to burn down floated around the room.
 However, when it became known that Jaguar had built a rollercoaster while studying at MIT, everyone was sold on the idea to make their own version at ISB.
 
-![](/media/rollercoaster2.jpg)
+<figure class="fullwidth">
+    <img src="/media/rollercoaster2.jpg">
+</figure>
 
 First of all, the students had to convince the school principals, design teachers and CFO to allow them to use the given budget for building a roller coaster on campus. The deadline for the project was to have it ready for the Innovation Expo, hosted annually by ISB. The presentation went well, and they were given a green light to continue the development. Next up was to order the material needed. 
 
@@ -41,11 +44,15 @@ The spirit was high and our team of Super Builders grew. Middle schoolers worked
 
 Things went so well, it was too good to be true. So one day, we got news from the insurance company serving the school saying that no person was to be allowed to ride the roller coaster. Another restriction was to have no people standing on a structure taller than 2 meters. The Super Build Team was quite (very) disappointed, and discussed alternative plans like building a wooden house. But after a long discussion they concluded that they were going to finish the roller coaster despite the restrictions. They wanted to prove to the school and insurance company that they could build a safe roller coaster with proper calculations and safety features. And just put a big teddy bear in the seat instead of a person. We went back to the drawing board to work with the new restrictions. The students took the lead on making new G-force calculations and CAD designs.
 
-![](/media/rollercoaster5.jpg)
+<figure class="fullwidth">
+    <img src="/media/rollercoaster5.jpg">
+</figure>
 
 What really began to both fascinate and impress me was the dedication and motivation among the students. Even though they were entering a period of exams and other after-school activities, but they kept prioritizing the Incredible Super Build Project. I asked them if they would have been as excited if we were building a wooden house. The answer was "No". Apparently it was the roller coaster, as it involved moving parts, lots of exciting physics and did not try to solve any problems besides just being cool and making people cheer and/or puke (an actual goal from the first meeting).
 
-![](/media/rollercoaster6.jpg)
+<figure class="fullwidth">
+    <img src="/media/rollercoaster6.jpg">
+</figure>
 
 Both Jaguar and I practice a very hands-off facilitation style, where we try to intervene only when necessary and let the students make (not too critical) mistakes. We ask lots of questions instead of pointing out flaws in their designs and ideas, making them realize and correct mistakes themselves. We often point out things that needs to be done, and give students a chance to take responsibility and have ownership of those tasks.
 
