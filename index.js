@@ -171,7 +171,6 @@ function renderThumbnails(posts, size) { // size can be "small, medium and large
               <div class="mediumThumbnail">
                 <a href="/${post.path}"><img src="${post.thumbnail}" alt="${post.title} cover image" /></a>
                 <p><a href="/${post.path}">${post.title}</a></p>
-                <p>Last tended on ${post.date}.</p>
               </div>
             </div>
           </section>`

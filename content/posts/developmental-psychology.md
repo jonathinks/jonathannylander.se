@@ -11,9 +11,7 @@ tags:
 
 <section>
 
-<figure class="fullwidth">
-    <p><img src="/media/bankim-desai-AdK3KrfBhzg-unsplash.jpg"></p>
-</figure>
+<p><img src="/media/bankim-desai-AdK3KrfBhzg-unsplash.jpg"></p>
 
 <p><i>Photo by <a href="https://unsplash.com/@rochangraphics?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bankim Desai</a> on <a href="https://unsplash.com/s/photos/cocoon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></i></p>
 
@@ -43,11 +41,11 @@ I will go through each stage below while connecting it to my other areas of inte
 
 <p><i>In Stage 2, the emphasis on one’s own needs, interests and agendas is primary.
 
-Relationships are transactional. Stage 2 individuals view people as a means to get their own needs met, as opposed to a shared internal experience (how we feel about each other). They care about how others perceive them, but only because those perceptions may have concrete consequences for them. For example, when Stage 2 friends do not lie to each other, it is because of a fear of the consequences or retaliation, not because they value honesty and transparency in a relationship.
+Relationships are transactional. Stage 2 individuals view people as a means to get their own needs met, as opposed to a shared internal experience (how we feel about each other). They care about how others perceive them, but only because those perceptions may have concrete consequences for them. For example, when Stage 2 friends do not lie to each other, it is because of a fear of the consequences or retaliation, not because they value honesty and transparency in a relationship.</p>
 
-Moreover, individuals follow along with rules, philosophies, movements or ideologies because of external rewards or punishments, not because they truly believe in them. For example, a person in Stage 2 won’t cheat because they’re scared of the consequences, not because it goes against their personal values.</p>
+<p>Moreover, individuals follow along with rules, philosophies, movements or ideologies because of external rewards or punishments, not because they truly believe in them. For example, a person in Stage 2 won’t cheat because they’re scared of the consequences, not because it goes against their personal values.</p>
 
-Written by <a href="https://medium.com/@NataliMorad/how-to-be-an-adult-kegans-theory-of-adult-development-d63f4311b553" target="_blank">Natali Morad.</a>
+<p>Written by <a href="https://medium.com/@NataliMorad/how-to-be-an-adult-kegans-theory-of-adult-development-d63f4311b553" target="_blank">Natali Morad.</a>
 </i></p>
 
 I often find it difficult to understand whether a friend or a student of mine is at the second developmental stage. However, in the complex world of our urban society, it is challenging to make sense of the world from this perspective. I learned from leadership coach Jennifer Garvey Berger that in order to help people grow from this stage to the Socialized mind, trying to take other people's perspective is a key practice. In her book Changing On The Job, she writes *"The key developmental outcome in any curriculum for someone seeing the world through a self-sovereign form of mind is simply to begin to see that he is part of a bigger world than he understood before. One element of this is for him to understand and take in the perspectives of others. This is a time to learn the benefits of subordinating your own needs to the needs of others, and so any teaching that asks this person to take and hold a really different perspective than his own is extraordinarily helpful."*
@@ -66,20 +64,20 @@ Bildung was often discussed in the philosophical circles in 18th and 19th centur
 <p><i>
 In Stage 3, external sources shape our sense of self and understanding of the world.
 
-Whereas in Stage 2 the most important things were our personal needs and interests, in Stage 3 the most important things are the ideas, norms and beliefs of the people and systems around us (i.e. family, society, ideology, culture, etc. ).
+Whereas in Stage 2 the most important things were our personal needs and interests, in Stage 3 the most important things are the ideas, norms and beliefs of the people and systems around us (i.e. family, society, ideology, culture, etc.).
 
-For the first time we begin experience ourselves as a function of how others experience us. For example, we take an external view of our ourselves (“They’ll think I look stupid”) and make it part of our internal experience (“I am stupid”).
+For the first time we begin experience ourselves as a function of how others experience us. For example, we take an external view of our ourselves ("They’ll think I look stupid”) and make it part of our internal experience ("I am stupid”).</p>
 
-More characteristics:
+<p>More characteristics:
 <ul>
 <li>We get our thoughts, beliefs, morals (what we know to be true) from external sources.</li>
 <li>We take too much personal responsibility for how other people experience us. As a result we spend too much energy trying to avoid hurting other people’s’ feelings.</li>
 <li>We look for external validation to derive our sense of self. For example, a student doesn’t know whether he has successfully mastered a subject until he sees his grade on a test; an executive doesn’t know whether a particular meeting was successful or not until her colleagues tell her it was.</li>
 <li>We don’t have an independent, strong sense of self. When there is a conflict between important ideologies, institutions, or people, we have a hard time answering the question: what do I want? We’re too busy focused on others’ expectations or societal roles.</li>
 <li>We no longer view other people as a means to an end. We can internalize others’ perspectives and actually care about others’ opinions of us — not just with regards to the consequences of those opinions. For example: I care that you’re angry with me because I care about you and our relationship, not just because if you’re angry then you won’t invite me to your party.</li>
-</ul>
+</ul></p>
 
-Written by <a href="https://medium.com/@NataliMorad/how-to-be-an-adult-kegans-theory-of-adult-development-d63f4311b553" target="_blank">Natali Morad.</a>
+<p>Written by <a href="https://medium.com/@NataliMorad/how-to-be-an-adult-kegans-theory-of-adult-development-d63f4311b553" target="_blank">Natali Morad.</a>
 </i></p>
 
 The most interesting metaphor I have heard about adult development is the "boardroom in your head". In Stage 3, you have a big boardroom in your head with important people and ideologies present. Imagine your family, friends, political belief, cultural norms and ideology sitting around this table discussing and making decisions for you. It's also from Berger's book Changing On The Job where I have read the best description of this stage:
@@ -90,7 +88,7 @@ The most interesting metaphor I have heard about adult development is the "board
 <input type="checkbox" id="systems-classroom" class="margin-toggle"/>
 <span class="marginnote">
   This <a href="https://www.youtube.com/watch?v=zJE1HoHabMw" target="_blank">fantastically weird music video</a> might give a visual feel to this experience.
-</span>Rita, loving and trusting both of these voices, had no way of knowing which direction to choose. She talked to each of them again and again, writing down the things they said and agonizing over the difference. When asked about how she would finally come to a decision, she was at a loss. Pushed to name some way out of this quandary—which was tearing her apart and causing her to be unable to eat or sleep or concentrate on her classes—she said that the only recourse she could imagine was to “flip a coin.” Rita, with a socialized mind, is not to be faulted for this perspective. Her life became more complex than she could handle at this stage of development, and the intense pressure on her to grow would not speed her growth quickly enough to work her way out of this most wrenching decision."</p>
+</span>Rita, loving and trusting both of these voices, had no way of knowing which direction to choose. She talked to each of them again and again, writing down the things they said and agonizing over the difference. When asked about how she would finally come to a decision, she was at a loss. Pushed to name some way out of this quandary—which was tearing her apart and causing her to be unable to eat or sleep or concentrate on her classes—she said that the only recourse she could imagine was to "flip a coin.” Rita, with a socialized mind, is not to be faulted for this perspective. Her life became more complex than she could handle at this stage of development, and the intense pressure on her to grow would not speed her growth quickly enough to work her way out of this most wrenching decision."</p>
 <footer>from Changing On The Job by Jennifer Garvey Berger.</footer>
 </blockquote>
 
@@ -110,16 +108,16 @@ Even as a person is growing past the Socialized mind, there are these cultural f
 ### Stage 4 - Self-Authoring mind
 
 <p><i>In Stage 4, we can define who we are, and not be defined by other people, our relationships or the environment.
-We understand that we are a person, with thoughts, feelings and beliefs that are independent from the standards and expectations of our environment. We can now distinguish the opinions of others from our own opinions to formulate our own “seat of judgment”. We become consumed with who we are — this is the kind of person I am, this is what I stand for.
+We understand that we are a person, with thoughts, feelings and beliefs that are independent from the standards and expectations of our environment. We can now distinguish the opinions of others from our own opinions to formulate our own "seat of judgment”. We become consumed with who we are — this is the kind of person I am, this is what I stand for.
 
 We develop an internal sense of direction and the capacity to create and follow our own course.
 
 More characteristics:
 - We can question expectations and values, take stands, set limits, and solve problems with independent frames of mind.
 - We can explore other thoughts and feelings, creating our own sense of authority or voice.
-- We can take responsibility for our own inner states and emotions — “I feel angry because I interpret what you did as a violation of important values of mine, and if I interpreted your actions differently I might feel sad instead.”
+- We can take responsibility for our own inner states and emotions — "I feel angry because I interpret what you did as a violation of important values of mine, and if I interpreted your actions differently I might feel sad instead.”
 - We generate our understanding of the world and are not unduly shaped by the context in which we find ourselves.
-- We realize that we’re always changing, that who we are is something that we can still negotiate.</p>
+- We realize that we’re always changing, that who we are is something that we can still negotiate.
 
 Written by <a href="https://medium.com/@NataliMorad/how-to-be-an-adult-kegans-theory-of-adult-development-d63f4311b553" target="_blank">Natali Morad</a>.
 </i></p>
@@ -142,7 +140,7 @@ More characteristics:
 - We are both self-authoring and willing to work with the authority of others. We can not only question authority, but also question ourselves.
 - We are no longer held prisoner by our own identity. We see the complexities of life, can expand who we are and be open to other possibilities — we are reinventing our identity. Our identity is limited — our circumstances in life will continuously change and our identity needs to change with it.
 - We can hold multiple thoughts and ideologies at once. We can understand things from many different perspectives.</p>
-
+<p>
 Written by <a href="https://medium.com/@NataliMorad/how-to-be-an-adult-kegans-theory-of-adult-development-d63f4311b553" target="_blank">Natali Morad.</a>
 </i></p>
 

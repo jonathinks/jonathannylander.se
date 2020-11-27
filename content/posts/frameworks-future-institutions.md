@@ -12,12 +12,9 @@ tags:
 <figure class="fullwidth">
     <p><img src="/media/stefano-girardelli-UozK-1SmmJU-unsplash.jpg"></p>
 </figure>
-
 <p><i>Photo by <a href="https://unsplash.com/@stefanobg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Stéfano Girardelli</a> on <a href="https://unsplash.com/s/photos/indigenous?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></i></p>
 
-
-
-Nordic Ideology + Hidden Power of Systems Thinking
+Frameworks of Future Institutional Design
 
 Dark Matter Labs:
 - https://provocations.darkmatterlabs.org/the-emergence-room-fc5bfffca813

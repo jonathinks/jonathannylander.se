@@ -8,6 +8,7 @@ type: book
 tags:
 - China
 - History
+- Biography
 
 ---
 

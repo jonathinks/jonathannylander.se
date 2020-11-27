@@ -11,6 +11,8 @@ tags:
 
 ---
 
+<section>
+
 # Education and the Significance of Life
 
 A book that truly challenge the educator to reflect on their own assumptions about learning and life itself. I read it for the first time in 2013, and reread it in 2020. Some of my favorite quotes from the book:
@@ -26,3 +28,5 @@ A book that truly challenge the educator to reflect on their own assumptions abo
 *"Teaching should not become a specialist's profession. When it does, as is so often the case, love fades away; and love is essential to the process of integration [of human beings]. To be integrated there must be freedom from fear. Fearlessness brings independence without ruthlessness, without contempt for another, and this is the most essential factor in life. Without love we cannot work out our many conflicting problems; without love the acquisition of knowledge only increases confusion and leads to self-destruction."*
 
 *"The real problem in education is the educator."*
+
+</section>

@@ -39,5 +39,6 @@ window.onload = function() {
         }
       }
     }
+    
     console.log('I should be showing only posts of the tag', tag)
   }

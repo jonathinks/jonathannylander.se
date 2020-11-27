@@ -499,6 +499,7 @@ label.margin-toggle:not(.sidenote-number) {
     margin-right: 1rem;
 }
 
+
 /* BUTTONS! */
 button {
     font-family: inherit; /* For all browsers */
@@ -543,9 +544,13 @@ button:hover {
 .selected {
     background: #222;
     color: white;
-  }
+}
+.selected:hover {
+    background: #222;
+    color: #bbb;
+}
   
-  .hidden {
+.hidden {
     display: none;
   }
   
@@ -556,6 +561,11 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
 }*/
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .smallThumbnail {
   margin-right: 3em;
