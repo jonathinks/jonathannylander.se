@@ -128,6 +128,14 @@ function renderMenu() {
   `
 }
 
+function renderFooter() {
+  return `
+    <section>
+    <p>Jonathan Nylander © 2020</p>
+    </section>
+  `
+}
+
 function renderPageLayout(data) {
   return `
     <html>
@@ -135,6 +143,7 @@ function renderPageLayout(data) {
       <body>
         ${renderMenu()}
         ${data.html}
+        ${renderFooter()}
       </body>
     </html>
   `
@@ -230,6 +239,7 @@ function renderIndexLayout(pageData, posts, thumbnailSize) {
         ${pageData.html}
         ${renderTagButtons(tags)}
         ${renderThumbnails(posts, thumbnailSize)}
+        ${renderFooter()}
       </body>
     </html>
   `

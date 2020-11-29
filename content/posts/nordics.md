@@ -17,6 +17,9 @@ tags:
 
 The purpose of this piece of writing is to drive my understanding of the Nordic culture and history. Having found an interest in history while living abroad, and never payed much attention to history class in my Swedish education, I became aware of the gap in my understanding. I have spent a lot of time consdering the future of the Nordics, but I hope to solidify my thinking by making connections to the historical factors that set our part of Europe out on this trajectory. If you have any resources or materials that can aid in my learning, please <a href="/about/">get in touch</a> with me.
 
+# Warning! This piece is a work in progess.
+However, I have put the working process here because I am open to learning from/together with others.
+
 ## The Poor North (1800-)
 
 
