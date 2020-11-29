@@ -1,16 +1,19 @@
 ---
 title: The Past and Future of Nordic Politics
 description: 
-thumbnail: /media/nordics.jpg
+thumbnail: /media/valdemaras-d-2czy17jLM_0-unsplash.jpg
 date: 2020-11-15
 type: note
 tags:
 ---
 
+<section>
+
 # The Past and Future of Nordic Politics
 
-![First blog](/media/nordics.jpg)
-*Image of me by Lu*
+<p><img src="/media/valdemaras-d-2czy17jLM_0-unsplash.jpg"></p>
+
+<span>Photo by <a href="https://unsplash.com/@deko_lt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Valdemaras D.</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 The purpose of this piece of writing is to drive my understanding of the Nordic culture and history. Having found an interest in history while living abroad, and never payed much attention to history class in my Swedish education, I became aware of the gap in my understanding. I have spent a lot of time consdering the future of the Nordics, but I hope to solidify my thinking by making connections to the historical factors that set our part of Europe out on this trajectory. If you have any resources or materials that can aid in my learning, please <a href="/about/">get in touch</a> with me.
 
@@ -66,3 +69,5 @@ Martin Hägglund
 Sources:
 https://medium.com/the-phoenix-project/metamodern-municipalism-aa158889408f
 https://medium.com/the-phoenix-project/metamodern-municipalism-part-2-ef96752aa2f
+
+</section>

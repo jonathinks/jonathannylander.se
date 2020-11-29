@@ -1,7 +1,7 @@
 ---
 title: My Direction
 description: 
-thumbnail: /media/taneli-lahtinen-CO21c8nFarY-unsplash.jpg
+thumbnail: /media/allec-gomes-QUMcsNaL99E-unsplash.jpg
 date: 2020-11-20
 type: note
 tags:
@@ -11,11 +11,9 @@ tags:
 
 <section>
 
-<figure class="fullwidth">
-    <p><img src="/media/taneli-lahtinen-CO21c8nFarY-unsplash.jpg"></p>
-</figure>
+<p><img src="/media/allec-gomes-QUMcsNaL99E-unsplash.jpg"></p>
 
-<p><i>Photo by <a href="https://unsplash.com/@tanelah?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Taneli Lahtinen</a> on <a href="https://unsplash.com/s/photos/mountain-road?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></i></p>
+<span>Photo by <a href="https://unsplash.com/@allecgomes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Allec Gomes</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 Where I am heading in my career.
 Include picture here too!

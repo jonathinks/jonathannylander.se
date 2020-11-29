@@ -1,7 +1,7 @@
 ---
 title: Connecting the Dots on Adult Development Theories
 description: 
-thumbnail: /media/bankim-desai-AdK3KrfBhzg-unsplash.jpg
+thumbnail: /media/justus-menke-zRqRhIJqdnI-unsplash.jpg
 date: 2020-11-12
 type: note
 tags:
@@ -11,9 +11,9 @@ tags:
 
 <section>
 
-<p><img src="/media/bankim-desai-AdK3KrfBhzg-unsplash.jpg"></p>
+<p><img src="/media/justus-menke-zRqRhIJqdnI-unsplash.jpg"></p>
 
-<p><i>Photo by <a href="https://unsplash.com/@rochangraphics?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bankim Desai</a> on <a href="https://unsplash.com/s/photos/cocoon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></i></p>
+<span>Photo by <a href="https://unsplash.com/@justusmenke?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Justus Menke</a> on <a href="https://unsplash.com/s/photos/tomato?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 In late 2018, I got introduced to the adult development theory of Robert Kegan by my colleague and friend Chen Bin. Instead of reading a book written by Kegan, I ended up reading "Changing on the Job: Developing Leaders for a Complex World" by Jennifer Garvey Berger, a student of Kegan. In the book, she explores "people’s capacities to make sense of the complex world in which they find themselves and the way those capacities grow and change over time. While we do not often consider the growth of people’s minds in the same way we consider the growth of their skills, both kinds of growth have a vital part to play in a person’s success and effectiveness."
 

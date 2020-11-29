@@ -12,9 +12,7 @@ tags:
 
 <section>
 
-<figure class="fullwidth">
-    <p><img src="/media/markus-spiske-4PG6wLlVag4-unsplash.jpg"></p>
-</figure>
+<p><img src="/media/markus-spiske-4PG6wLlVag4-unsplash.jpg"></p>
 
 <p><i>Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></i></p>
 

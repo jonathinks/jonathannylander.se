@@ -7,7 +7,9 @@ type: page
 <h1 style="margin-bottom: 2.0rem;">Jonathan Nylander</h1>
 <div class="row">
     <div class="column">
-        <h2 style="font-style: normal; margin-top: 1.0rem;">Systems thinker and aspiring designer for the public good with an interest in informal learning, climate justice and technology.</h2>            
+        <h2 style="font-style: normal; margin-top: 1.0rem;">Systems thinker and aspiring designer for the public good with an interest in informal learning, climate justice and technology.</h2>
+        <p><i>me[at]jonathannylander.se<br>
+        <a href="https://twitter.com/jonathanylander" target="_blank">@jonathanylander</a></i></p>            
         <p>
         I enjoy being all over the place. Whevever I end up, I always carry with me a sense of curiosity and a backpack of perspectives, such as systems thinking, <a href="/developmental-psychology/">developmental psychology</a>, <a href="https://metamoderna.org/metamodernism/" target="_blank">metamodernism</a> and various cultural perspectives.</p>
         <p>
