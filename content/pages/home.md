@@ -6,7 +6,7 @@ type: page
 
 <section>
 
-# Jonathan Nylander
+<h1 style="font-size: 5rem; margin-bottom: 2.5rem;">Jonathan Nylander</h1>
 
 <h2 style="font-style: normal; margin-top: 1.0rem; width: 55%;">Exploring climate, education and technology through the lens of systems thinking and design.</h2>
 
@@ -16,8 +16,8 @@ type: page
 
 <section>
 
-<h2>Notes</h2>
-<p>A digital garden of research, thoughts and learning. <a href="/notes">See more notes</a>.</p>
+<h1>Notes</h1>
+<p>A digital garden of research notes, thoughts and learning in progress.</p>
 
 <div class="list">
     <div class="thumbnail">
@@ -46,13 +46,15 @@ type: page
     </div>
 </div>
 
+<a href="/notes">See more notes</a>.
+
 </section>
 
 
 <section>
 
-<h2>Projects</h2>
-<p>These are some of the projects I have worked on during my studies and work. <a href="/projects">See more projects</a>.</p>
+<h1>Projects</h1>
+<p>Some of the projects I have created in contexts of study, work and play.</p>
 
 <div class="list">
     <div class="thumbnail">
@@ -78,13 +80,15 @@ type: page
     </div>
 </div>
 
+<a href="/projects">See more projects</a>.
+
 </section>
 
 
 <section>
 
-<h2>Bookshelf</h2>
-<p>In my online bookshelf, you can browse between some of the books that have inspired me. <a href="/bookshelf">See more books</a>.</p>
+<h1>Bookshelf</h1>
+<p>An online bookshelf containing the books that have inspired me the most.</p>
 
 <div class="list">
     <div class="thumbnail">
@@ -116,5 +120,7 @@ type: page
         </div>
     </div>
 </div>
+
+<a href="/bookshelf">See more books</a>.
 
 </section>

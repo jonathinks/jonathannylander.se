@@ -108,7 +108,8 @@ function renderHead(data) {
   return `
     <head>
       <title>${data.title}</title>
-      <link rel="stylesheet" href="/layout.css">
+      <link rel="stylesheet" href="/layout.css" />
+      <meta charset="utf-8" />
       <script type="text/javascript" src="/script.js"></script>
     </head>
   `
